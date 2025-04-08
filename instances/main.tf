@@ -9,7 +9,7 @@ resource "aws_instance" "proxy_az1" {
               amazon-linux-extras install nginx1 -y
               systemctl start nginx
               systemctl enable nginx
-              echo "<h1>From Instance1 AZ 1 </h1>" > /usr/share/nginx/html/index.html
+              echo "<h1>From Public Instance1 AZ 1 </h1>" > /usr/share/nginx/html/index.html
               EOF
 
   tags = {
@@ -29,7 +29,7 @@ resource "aws_instance" "proxy_az2" {
               amazon-linux-extras install nginx1 -y
               systemctl start nginx
               systemctl enable nginx
-              echo "<h1>From Instance2 AZ2</h1>" > /usr/share/nginx/html/index.html
+              echo "<h1>From Public Instance2 AZ2</h1>" > /usr/share/nginx/html/index.html
               EOF
 
   tags = {
@@ -49,7 +49,7 @@ resource "aws_instance" "backend_az1" {
               yum install -y httpd
               systemctl start httpd
               systemctl enable httpd
-              echo "<h1>Private Backend Instance AZ1</h1>" > /var/www/html/index.html
+              echo "<h1>Private Instance AZ1</h1>" > /var/www/html/index.html
               EOF
 
   tags = {
