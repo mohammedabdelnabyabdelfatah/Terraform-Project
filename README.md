@@ -10,9 +10,6 @@ This Terraform project sets up an AWS infrastructure with:
 ![image](https://github.com/user-attachments/assets/5f59e64f-44c8-4797-ac88-00b788de4c8f)
 ## Project Structure
 ```
-
-
-
 project-folder/
 │-- elb-m/                # Load Balancers configuration
 │-- gateways-m/           # Internet Gateway & NAT Gateway
