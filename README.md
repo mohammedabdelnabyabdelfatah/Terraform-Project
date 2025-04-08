@@ -7,10 +7,10 @@ This Terraform project sets up an AWS infrastructure with:
 - Two Elastic Load Balancers (ELB) for public and private EC2 instances.
 - EC2 instances with Apache installed.
 - Security Groups for controlled access.
-
+![image](https://github.com/user-attachments/assets/5f59e64f-44c8-4797-ac88-00b788de4c8f)
 ## Project Structure
 ```
-![image](https://github.com/user-attachments/assets/5f59e64f-44c8-4797-ac88-00b788de4c8f)
+
 
 
 project-folder/
