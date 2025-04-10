@@ -72,5 +72,5 @@ terraform destroy -auto-approve
 - NAT Gateway allows private instances to access the internet for updates.
 
 ### Author
-This Terraform project was created to automate AWS resource provisioning. Contributions and improvements are welcome!
+This Terraform project was created to automate AWS resource provisioning.
 
